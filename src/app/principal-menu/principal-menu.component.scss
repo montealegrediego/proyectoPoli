@@ -1,0 +1,26 @@
+.card-principal-menu{
+	align-self: center;
+	text-align: center;	
+}
+
+.card-principal-menu-detail{
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+  	-o-background-size: cover;
+   	background-size:100% auto;
+	height: 50%;
+	width: 30%;
+	padding: 5%;
+}
+
+#card-characters{
+	background: url(src/assets/image/characters.png);
+}
+
+#card-history{
+	background: url(src/assets/image/history.jpeg);
+}
+
+#card-lore{
+	background: url(src/assets/image/lore.jpg);
+}
