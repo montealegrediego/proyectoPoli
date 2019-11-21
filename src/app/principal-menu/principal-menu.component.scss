@@ -1,26 +1,32 @@
 .card-principal-menu{
-	align-self: center;
 	text-align: center;	
+	position: relative;
+	right: 15%; 
+	width: 120%;
+	height: 100%;
 }
 
 .card-principal-menu-detail{
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-  	-o-background-size: cover;
-   	background-size:100% auto;
-	height: 50%;
-	width: 30%;
-	padding: 5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	height: 300px;
+	width: 29.1%;
+}
+
+.btn_principal_menu{
+	position: relative;
 }
 
 #card-characters{
-	background: url(src/assets/image/characters.png);
+	background-image: url(src/assets/image/characters.png);
 }
 
 #card-history{
-	background: url(src/assets/image/history.jpeg);
+	background-image: url(src/assets/image/history.jpeg);
 }
 
 #card-lore{
-	background: url(src/assets/image/lore.jpg);
+	background-image: url(src/assets/image/lore.jpg);
 }
