@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Members, IMembers } from '../models/member-model';
+import { IMembers } from '../../models/member-model';
+import { Members } from '../../const/members';
 
 @Component({
   selector: 'app-home',

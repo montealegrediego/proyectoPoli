@@ -1,5 +1,4 @@
-<div class="context">
-  <router-outlet class="container-app">
-    <app-principal-menu></app-principal-menu>
-  </router-outlet>
+<!-- <div class="route-container" [@routeAnimation]="getDepth(myOutlet)"> -->
+<div class="route-container">
+  <router-outlet class="container-app" #myOutlet="outlet"></router-outlet>
 </div>
