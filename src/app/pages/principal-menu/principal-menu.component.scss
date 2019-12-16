@@ -1,0 +1,47 @@
+.card-principal-menu{
+	text-align: center;	
+	background-color: transparent;
+	position: relative;
+	width: 1000px;
+	height: 730px;
+}
+
+.card-principal-menu-detail{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 250px;
+	height: 200px;
+	width: 500px;
+}
+
+.btn_principal_menu{
+	position: relative;
+	background-color: transparent;
+	font-family: Misfits;
+	font-size: 50px;
+	color : #7C8FA4;
+	text-shadow: -2px -2px 1px #EEFCFD, 2px 2px 1px #EEFCFD, -2px 2px 1px #EEFCFD, 2px -2px 1px #EEFCFD;
+	top: 150px;
+}
+
+#card-characters{
+	background-image: url(src/assets/image/characters.png);
+}
+
+#card-history{
+	background-image: url(src/assets/image/history.jpeg);
+}
+
+#card-lore{
+	background-image: url(src/assets/image/lore.jpg);
+}
+
+@font-face{
+	font-family: Misfits;
+	src: url(src/font/MISFITS_.TTF);
+}

@@ -1,0 +1,32 @@
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1023px;
+$breakpoint-lg: 1360px;
+
+@mixin media($media) {
+  @if $media == xs {
+    @media (max-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media (min-width: $breakpoint-sm) {
+      @content;
+    }
+  }
+}
+
+.route-container {
+  widows: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(src/assets/image/principal-background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container-app {
+  @include media(xs) { width: 100vw; }
+  @include media(lg) { width: 1000px; }
+}
+
