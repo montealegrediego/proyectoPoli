@@ -9,6 +9,13 @@ branches:
 before_script:
   - npm install -g @angular/cli
 script:
-- ng lint
-- npm run-script lint --force
-- ng build --prod --base-href https://github.com/montealegrediego/proyectoPoli/
+  - ng lint
+  - npm run test-headless
+  - ng build --prod --base-href https://github.com/montealegrediego/proyectoPoli/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/travis-demo
+  on:
+    branch: Diego
