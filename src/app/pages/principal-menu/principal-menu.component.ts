@@ -21,7 +21,7 @@ export class PrincipalMenuComponent implements OnInit {
   }
 
   goToSubMenu(item: IPrincipalMenuItem) {
-    this.router.navigate([URLS.SUB_MENU]);
+    this.router.navigate([URLS.CHARACTERS]);
   }
 
 }

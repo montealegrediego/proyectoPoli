@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MaterialModule } from './marerial-module';
 import { PrincipalMenuComponent } from './pages/principal-menu/principal-menu.component';
 import { HeaderComponent } from './components/header/header.component';
-import { SubMenuComponent } from './pages/sub-menu/sub-menu.component';
+import { CharactersComponent } from './pages/characters/characters.component';
 
 
 @NgModule({
@@ -19,7 +19,7 @@ import { SubMenuComponent } from './pages/sub-menu/sub-menu.component';
     HomeComponent,
     PrincipalMenuComponent,
     HeaderComponent,
-    SubMenuComponent,
+    CharactersComponent,
   ],
   imports: [
     BrowserModule,
