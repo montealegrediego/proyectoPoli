@@ -6,7 +6,8 @@ import { PrincipalMenuComponent } from './pages/principal-menu/principal-menu.co
 import { URLS } from './const/urls';
 
 const routes: Routes = [
-  { path: URLS.HOME, component: PrincipalMenuComponent, data: { depth: 0 } },
+  { path: URLS.HOME, component: HomeComponent, data: { depth: 0 } },
+  { path: URLS.PRINCIPAL_MENU, component: PrincipalMenuComponent, data: { depth: 1 } },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
