@@ -1,17 +1,8 @@
 <mat-card class="card-principal-menu">
-	<mat-card class="card-principal-menu-detail" id="card-characters">
+	<mat-card class="card-principal-menu-detail" *ngFor="let item of items" id="card-{{item.type}}"
+		(click)="goToSubMenu(item)">
 		<mat-card-actions>
-			<button mat-raised-button class="btn_principal_menu">Personajes</button>
-		</mat-card-actions>
-	</mat-card>
-	<mat-card class="card-principal-menu-detail" id="card-history">
-		<mat-card-actions>
-			<button mat-raised-button class="btn_principal_menu">Historia</button>
-		</mat-card-actions>
-	</mat-card>	
-	<mat-card class="card-principal-menu-detail" id="card-lore">
-		<mat-card-actions>
-			<button mat-raised-button class="btn_principal_menu">Lore</button>
+			<button mat-raised-button class="btn_principal_menu" id="btn_menu_{{item.type}}">{{item.text}}</button>
 		</mat-card-actions>
 	</mat-card>
 </mat-card>

@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MaterialModule } from './marerial-module';
 import { PrincipalMenuComponent } from './pages/principal-menu/principal-menu.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CharactersComponent } from './pages/characters/characters.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HeaderComponent } from './components/header/header.component';
     HomeComponent,
     PrincipalMenuComponent,
     HeaderComponent,
+    CharactersComponent,
   ],
   imports: [
     BrowserModule,

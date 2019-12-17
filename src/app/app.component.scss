@@ -16,17 +16,16 @@ $breakpoint-lg: 1360px;
 }
 
 .route-container {
-  widows: 100vw;
   display: flex;
   justify-content: center;
-  background-image: url(src/assets/image/principal-background.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  // background-image: url(src/assets/image/principal-background.jpg);
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: center;
 }
 
 .container-app {
-  @include media(xs) { width: 100vw; }
-  @include media(lg) { width: 1000px; }
+  // @include media(xs) { width: 100vw; }
+  // @include media(lg) { width: 1000px; }
 }
 
