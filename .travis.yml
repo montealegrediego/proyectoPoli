@@ -6,8 +6,7 @@ sudo: required
 branches:
   only:
   - Diego
-before_script:
-  - ng lint
+before_script:  
   - npm install -g @angular/cli
 script:
 - ng build --prod --base-href https://github.com/montealegrediego/proyectoPoli/
