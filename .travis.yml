@@ -5,7 +5,7 @@ dist: trusty
 sudo: required
 branches:
   only:
-  - develop
+  - Diego
 before_script:
   - ng lint
   - npm install -g @angular/cli
